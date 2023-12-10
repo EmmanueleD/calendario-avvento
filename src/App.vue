@@ -15,7 +15,7 @@ const numberOfNoSecrets = computed(() => {
 
 const numberOfDaysFromFirstOfDecember = computed(() => {
   return (
-    Math.floor((new Date() - new Date(2023, 11, 1)) / (1000 * 60 * 60 * 24)) + 1
+    Math.floor((new Date() - new Date(2023, 11, 1)) / (1000 * 60 * 60 * 24)) + 2
   );
 });
 
